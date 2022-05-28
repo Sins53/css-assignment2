@@ -1,0 +1,12 @@
+.banner-img {
+  position: relative;
+  &-text {
+    position: absolute;
+    top: 40%;
+    button {
+      margin-top: 1.75rem;
+      border-radius: 1rem;
+    }
+  }
+  margin-bottom: 4.5rem;
+}

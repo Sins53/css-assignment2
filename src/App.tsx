@@ -1,5 +1,7 @@
+import { Homepage } from "./core/homepage/Homepage";
+
 function App() {
-  return <h2>hello</h2>;
+  return <Homepage />;
 }
 
 export default App;

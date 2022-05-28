@@ -1,0 +1,36 @@
+.section {
+  &-boxshadow {
+    background: #ffffff;
+    box-shadow: 4px 8px 24px rgba(46, 0, 229, 0.25);
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section-card {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-gap: 1.5rem;
+  }
+}
+@media (max-width: 1280px) {
+  .section-card {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-gap: 1.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .section-card {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    grid-gap: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .section-card {
+    display: grid;
+    grid-template-columns: repeat(1, 12fr);
+    grid-gap: 1.5rem;
+  }
+}

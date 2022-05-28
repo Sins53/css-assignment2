@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+// @import "~ag-grid-community/src/styles/ag-grid.scss";
+// @import "~ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin";
+
+@import "abstracts/variables";
+
+@import "./frameworks/cbootstrap";
+
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "layout/footer";
+
+@import "components/boxShadow";
+@import "components/roundedDiv";
+@import "components/informationScetion";
+@import "components/banner";
+@import "components/gallery";
+@import "components/slides";
+@import "components/testomonials";

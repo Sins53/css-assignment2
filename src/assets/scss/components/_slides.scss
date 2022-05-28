@@ -1,0 +1,33 @@
+.slider {
+  margin-bottom: 4.75rem;
+  &-img {
+    position: relative;
+    &-text {
+      position: absolute;
+      top: 30%;
+      left: 10%;
+    }
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 1.5rem;
+    li button:before {
+      color: red;
+      font-size: 1rem;
+    }
+  }
+  .slick-next {
+    position: absolute;
+    right: 3rem;
+  }
+  .slick-prev {
+    position: absolute;
+    left: 1rem;
+    z-index: 3;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 3rem;
+    color: red;
+  }
+}
